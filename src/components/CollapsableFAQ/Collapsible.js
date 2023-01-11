@@ -1,11 +1,5 @@
 import React, { useState } from "react";
-import {
-  MdArrowDropDown,
-  MdKeyboardArrowDown,
-  MdKeyboardArrowUp,
-  MdOutlineArrowDropDown,
-} from "react-icons/md";
-import { SiNike } from "react-icons/si";
+import { MdKeyboardArrowDown, MdKeyboardArrowUp } from "react-icons/md";
 import style from "./styles.module.scss";
 export const Collapsible = ({ question, answer }) => {
   const [open, setOPen] = useState(false);
@@ -15,7 +9,9 @@ export const Collapsible = ({ question, answer }) => {
   return (
     <div className={style.mainDiv}>
       <div className={style.questionDiv} onClick={toggle}>
-        <h4 className={style.question}>{question}</h4>
+        <div style={{ width: "300px" }}>
+          <h4 className={style.question}>{question}</h4>
+        </div>
         <div className={style.downArrow}>
           {open ? (
             <MdKeyboardArrowDown size={30} color={"#0364E1"} />

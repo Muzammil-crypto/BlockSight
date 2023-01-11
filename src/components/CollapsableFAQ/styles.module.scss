@@ -11,8 +11,6 @@ border-radius: 3px;
 flex-direction: row;
     padding-left: 50px;
     display: flex;
-    align-self: center;
-    align-content: center;
     height: 60px;
     width: 100%;
     background-color: white;
@@ -43,7 +41,6 @@ flex-direction: row;
 
 }
 .downArrow{
-    margin-left: 750px;
     justify-content: left;
     align-items: center;
     display: flex;

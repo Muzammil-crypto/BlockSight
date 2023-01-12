@@ -9,8 +9,8 @@ export const Collapsible = ({ question, answer }) => {
   return (
     <div className={style.mainDiv}>
       <div className={style.questionDiv} onClick={toggle}>
-        <div>
-          <h4 className={style.question}>{question}</h4>
+        <div className={style.question}>
+          <h4 className={style.questionText}>{question}</h4>
         </div>
         <div className={style.downArrow}>
           {open ? (

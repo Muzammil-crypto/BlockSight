@@ -16,19 +16,18 @@ export const SectionFour = () => {
         <DescriptionText text={desFourthSec} />
       </div>
       <div className={style.discount}>
-        <text className={style.discountTexts}>{"Launch Plan"}</text>
-        <Typography text={"$99 per month"} />
+        <Typography text={"Launch Plan"} />
         <text className={style.options}>{"394$ per month"}</text>
-        <div className={style.secMargin}>
+        <div className={style.iconTexts}>
           <IconText />
           <br />
           <IconText />
           <br />
           <IconText />
         </div>
-        <br />
-
-        <Button title={"Join Now"} />
+        <div className={style.buttonStyle}>
+          <Button title={"Sign Up Now"} />
+        </div>
       </div>
       <br />
     </div>

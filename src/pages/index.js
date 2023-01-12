@@ -1,23 +1,23 @@
 import styles from "../styles/Home.module.scss";
-import { SectionOne } from "./sections/SectionOne";
-import { SectionTwo } from "./sections/SectionTwo";
-import { SectionThree } from "./sections/sectionThree";
-import { SectionFour } from "./sections/SectionFour";
-import { SectionFive } from "./sections/SectionFive";
-import { SectionSix } from "./sections/SectionSix";
+import { BannerSection } from "./sections/BannerSection";
+import { EventSection } from "./sections/EventSection";
+import { FeaturesSection } from "./sections/FeatureSection";
+import { PlanSection } from "./sections/PlanSection";
+import { ReviewsSection } from "./sections/ReviewsSection";
+import { FaqSection } from "./sections/FAQSection";
 import { CopyrightBottom } from "../components/general/Copyright/CopyrightBottom";
 
 export default function Home() {
   return (
     <>
       <main className={styles.main}>
-        <SectionOne />
+        <BannerSection />
         <div className={styles.center}>
-          <SectionTwo />
-          <SectionThree />
-          <SectionFour />
-          <SectionFive />
-          <SectionSix />
+          <EventSection />
+          <FeaturesSection />
+          <PlanSection />
+          <ReviewsSection />
+          <FaqSection />
         </div>
         <CopyrightBottom />
       </main>

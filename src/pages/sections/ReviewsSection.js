@@ -12,8 +12,9 @@ import { DescriptionText } from "../../components/base/Typography/DescriptionTex
 import style from "./styles/styles.module.scss";
 import { SwipeRight } from "../../components/general/SwiperSlider.js/SwipeRight";
 import { SwipeLeft } from "../../components/general/SwiperSlider.js/SwipeLeft";
+import { Button } from "../../components/base/Button/Button";
 
-export const SectionFive = () => {
+export const ReviewsSection = () => {
   const swiperRef = React.useRef(null);
 
   return (
@@ -63,6 +64,8 @@ export const SectionFive = () => {
           </SwiperSlide>
         ))}
       </Swiper>
+      <br />
+      <Button title={"Join us now"} />
 
       <div className={style.centerDiv}>
         <Typography text={"We don’t gaurantee Profits"} />

@@ -6,9 +6,9 @@ import styles from "./styles/styles.module.scss";
 import { LinkText } from "../../components/base/Typography/LinkText";
 import { Collapsible } from "../../components/general/CollapsableFAQ/Collapsible";
 import { Typography } from "../../components/base/Typography/Typography";
-export const SectionSix = () => {
+export const FaqSection = () => {
   return (
-    <div>
+    <div className={styles.faqSection}>
       <div className={styles.headingMargin}>
         <Typography text={"What Our Users are saying"} />
       </div>

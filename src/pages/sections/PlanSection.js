@@ -6,7 +6,7 @@ import { Typography } from "../../components/base/Typography/Typography";
 import { desFourthSec, headingFourthSec } from "../../constants/texts";
 import style from "./styles/styles.module.scss";
 
-export const SectionFour = () => {
+export const PlanSection = () => {
   return (
     <div>
       <div style={{ marginTop: "100px", flexDirection: "column" }}>

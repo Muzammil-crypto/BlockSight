@@ -6,7 +6,7 @@ import { VideoCard } from "../../components/general/VideoCard/VideoCard";
 import { firstDes, TopHeading } from "../../constants/texts";
 import styles from "./styles/styles.module.scss";
 import { HeadSet } from "../../components/general/HeaderTitle/Head";
-export const SectionOne = () => {
+export const BannerSection = () => {
   return (
     <>
       <HeadSet />

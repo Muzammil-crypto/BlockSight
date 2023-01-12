@@ -5,7 +5,7 @@ import { GridSection } from "../../components/general/GridView/GridSection";
 import { Typography } from "../../components/base/Typography/Typography";
 import { desthirdSec, headingthirdSec } from "../../constants/texts";
 import styles from "./styles/styles.module.scss";
-export const SectionThree = () => {
+export const FeaturesSection = () => {
   return (
     <div className={styles.secHeading}>
       <Button title={"Hold your spot now"} />

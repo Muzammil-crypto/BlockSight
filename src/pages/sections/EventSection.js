@@ -6,7 +6,7 @@ import { expire, secdes, secHeading, warning } from "../../constants/texts";
 import styles from "../../components/general/Timer/countDownStyle.module.scss";
 import style from "./styles/styles.module.scss";
 import { LinkText } from "../../components/base/Typography/LinkText";
-export const SectionTwo = () => {
+export const EventSection = () => {
   const THREE_DAYS_IN_MS = 3 * 24 * 60 * 60 * 1000;
   const NOW_IN_MS = new Date().getTime();
   const dateTimeAfterThreeDays = NOW_IN_MS + THREE_DAYS_IN_MS;

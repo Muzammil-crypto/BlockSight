@@ -17,6 +17,7 @@ export const SectionFour = () => {
       </div>
       <div className={style.discount}>
         <Typography text={"Launch Plan"} />
+        <br />
         <text className={style.options}>{"394$ per month"}</text>
         <div className={style.iconTexts}>
           <IconText />

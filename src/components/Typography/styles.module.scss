@@ -21,9 +21,15 @@
     font-family:  sans-serif;
     color:  #036406;
 }
+.subHeading{
+    font-size: 32px;
+    font-weight : 600;
+    font-family : sans-serif;
+    color: #2A2A2A;
+}
 
 
-@media (max-width:600px){
+@media (max-width:800px){
     .heading{
         padding: 33;
         font-size: 16px;
@@ -45,4 +51,12 @@
         font-family:  sans-serif;
         color:  #036406;
     }
+    .subHeading{
+        font-size: 16px;
+        font-weight : 600;
+        font-family : sans-serif;
+        color: #2A2A2A;
+    }
+    
+
 }

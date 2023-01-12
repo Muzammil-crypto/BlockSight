@@ -31,8 +31,31 @@ export const SectionFive = () => {
         grabCursor={true}
         modules={[Navigation]}
         spaceBetween={33}
-        slidesPerView={3.5}
         ref={swiperRef}
+        breakpoints={{
+          // when window width is >= 640px
+          1410: {
+            width: 1220,
+            slidesPerView: 3.5,
+          },
+          1160: {
+            width: 1100,
+            slidesPerView: 3,
+          },
+          900: {
+            width: 900,
+            slidesPerView: 3,
+          },
+          // when window width is >= 768px
+          800: {
+            width: 820,
+            slidesPerView: 2,
+          },
+          700: {
+            width: 768,
+            slidesPerView: 2,
+          },
+        }}
       >
         {Testmonials.map((item, val) => (
           <SwiperSlide key={val}>

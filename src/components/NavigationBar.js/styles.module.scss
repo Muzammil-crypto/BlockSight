@@ -5,6 +5,16 @@
     border-radius: 0.2rem;
     color: white;
     border-width: 0;
+}
 
-
+@media (max-width: 800px){
+    .buttonNav{
+        margin-right: 10px;
+        width: 100px;
+        height: 36px;
+        background-color: #0264E1;
+        border-radius: 0.2rem;
+        color: white;
+        border-width: 0;
+    }
 }

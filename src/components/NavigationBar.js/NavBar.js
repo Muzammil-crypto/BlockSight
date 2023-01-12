@@ -13,15 +13,7 @@ export const NavBar = () => {
         height={38}
         priority
       />
-      <div>
-        <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Button title={"Join Now"} />
-        </a>
-      </div>
+      <Button title={"Join Now"} />
     </div>
   );
 };

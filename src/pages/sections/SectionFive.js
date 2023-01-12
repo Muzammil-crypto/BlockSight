@@ -2,16 +2,16 @@ import React from "react";
 
 import { Navigation, Thumbs } from "swiper";
 import { Swiper, SwiperSlide } from "swiper/react";
-import { TestmonialCard } from "../../components/Reviews/TestmonialCard";
-import { Typography } from "../../components/Typography/Typography";
+import { TestmonialCard } from "../../components/general/Reviews/TestmonialCard";
+import { Typography } from "../../components/base/Typography/Typography";
 import { expire, Testmonials } from "../../constants/texts";
 import "swiper/scss";
 import "swiper/scss/navigation";
 import "swiper/scss/pagination";
-import { DescriptionText } from "../../components/Typography/DescriptionText";
+import { DescriptionText } from "../../components/base/Typography/DescriptionText";
 import style from "./styles/styles.module.scss";
-import { SwipeRight } from "../../components/SwiperSlider.js/SwipeRight";
-import { SwipeLeft } from "../../components/SwiperSlider.js/SwipeLeft";
+import { SwipeRight } from "../../components/general/SwiperSlider.js/SwipeRight";
+import { SwipeLeft } from "../../components/general/SwiperSlider.js/SwipeLeft";
 
 export const SectionFive = () => {
   const swiperRef = React.useRef(null);

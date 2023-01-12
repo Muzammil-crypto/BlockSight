@@ -1,8 +1,8 @@
 import React from "react";
-import { Button } from "../../components/Button/Button";
-import { DescriptionText } from "../../components/Typography/DescriptionText";
-import { GridSection } from "../../components/GridView/GridSection";
-import { Typography } from "../../components/Typography/Typography";
+import { Button } from "../../components/base/Button/Button";
+import { DescriptionText } from "../../components/base/Typography/DescriptionText";
+import { GridSection } from "../../components/general/GridView/GridSection";
+import { Typography } from "../../components/base/Typography/Typography";
 import { desthirdSec, headingthirdSec } from "../../constants/texts";
 import styles from "./styles/styles.module.scss";
 export const SectionThree = () => {

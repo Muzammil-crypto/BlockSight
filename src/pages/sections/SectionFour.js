@@ -1,8 +1,8 @@
 import React from "react";
-import { Button } from "../../components/Button/Button";
-import { IconText } from "../../components/IconText/IconText";
-import { DescriptionText } from "../../components/Typography/DescriptionText";
-import { Typography } from "../../components/Typography/Typography";
+import { Button } from "../../components/base/Button/Button";
+import { IconText } from "../../components/base/IconText/IconText";
+import { DescriptionText } from "../../components/base/Typography/DescriptionText";
+import { Typography } from "../../components/base/Typography/Typography";
 import { desFourthSec, headingFourthSec } from "../../constants/texts";
 import style from "./styles/styles.module.scss";
 

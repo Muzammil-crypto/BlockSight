@@ -1,11 +1,11 @@
 import React from "react";
-import { DescriptionText } from "../../components/Typography/DescriptionText";
-import CountdownTimer from "../../components/Timer/countDownTimer";
-import { Typography } from "../../components/Typography/Typography";
+import { DescriptionText } from "../../components/base/Typography/DescriptionText";
+import CountdownTimer from "../../components/general/Timer/countDownTimer";
+import { Typography } from "../../components/base/Typography/Typography";
 import { expire, secdes, secHeading, warning } from "../../constants/texts";
-import styles from "../../components/Timer/countDownStyle.module.scss";
+import styles from "../../components/general/Timer/countDownStyle.module.scss";
 import style from "./styles/styles.module.scss";
-import { LinkText } from "../../components/Typography/LinkText";
+import { LinkText } from "../../components/base/Typography/LinkText";
 export const SectionTwo = () => {
   const THREE_DAYS_IN_MS = 3 * 24 * 60 * 60 * 1000;
   const NOW_IN_MS = new Date().getTime();

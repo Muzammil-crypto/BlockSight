@@ -2,7 +2,7 @@ import React from "react";
 import DateTimeDisplay from "./DateTimeDisplay";
 import { useCountdown } from "./hooks/useCountdown";
 import styles from "./countDownStyle.module.scss";
-import { Typography } from "../Typography/Typography";
+import { Typography } from "../../base/Typography/Typography";
 
 const ExpiredNotice = () => {
   return (

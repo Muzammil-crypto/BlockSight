@@ -1,8 +1,6 @@
 import React from "react";
 import styles from "./gridStyle.module.scss";
 import Image from "next/image";
-import { SubHeading } from "../Typography/SubHeading";
-import { DescriptionText } from "../Typography/DescriptionText";
 
 export const GridSection = () => {
   return (

@@ -1,9 +1,9 @@
 import React from "react";
-import { Button } from "../../src/components/Button/Button";
-import { IconText } from "../../src/components/IconText/IconText";
-import { DescriptionText } from "../../src/components/Typography/DescriptionText";
-import { Typography } from "../../src/components/Typography/Typography";
-import { desFourthSec, headingFourthSec } from "../../src/constants/texts";
+import { Button } from "../../components/Button/Button";
+import { IconText } from "../../components/IconText/IconText";
+import { DescriptionText } from "../../components/Typography/DescriptionText";
+import { Typography } from "../../components/Typography/Typography";
+import { desFourthSec, headingFourthSec } from "../../constants/texts";
 import style from "./styles/styles.module.scss";
 
 export const SectionFour = () => {

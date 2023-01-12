@@ -1,11 +1,11 @@
 import React from "react";
-import { Button } from "../../src/components/Button/Button";
-import { DescriptionText } from "../../src/components/Typography/DescriptionText";
-import { Typography } from "../../src/components/Typography/Typography";
-import { expire } from "../../src/constants/texts";
+import { Button } from "../../components/Button/Button";
+import { DescriptionText } from "../../components/Typography/DescriptionText";
+import { Typography } from "../../components/Typography/Typography";
+import { expire } from "../../constants/texts";
 import styles from "./styles/styles.module.scss";
-import { LinkText } from "../../src/components/Typography/LinkText";
-import { Collapsible } from "../../src/components/CollapsableFAQ/Collapsible";
+import { LinkText } from "../../components/Typography/LinkText";
+import { Collapsible } from "../../components/CollapsableFAQ/Collapsible";
 export const SectionSix = () => {
   return (
     <div>
